@@ -15,17 +15,22 @@
     </header>
     <article class="timer">
         <h2>TIMER</h2>
-        <section>
+        <section class="timer-settings">
             <h3 class="ir">Timer Settings</h3>
-            <label for="hrs">HRS</label>
-            <input id="hrs" type="number" value="00" min="0" max="24">
-            <label for="min">MIN</label>
-            <input id="min" type="number" value="00" min="0" max="59">
-            <label for="sec">SEC</label>
-            <input id="sec" type="number" value="00" min="0" max="59">
+            <div class="time-wrapper">
+                <label for="hrs">HRS</label>
+                <input id="hrs" type="text" value="00" min="0" max="24">
+            </div>
+            <div class="time-wrapper">
+                <label for="min">MIN</label>
+                <input id="min" type="text" value="00" min="0" max="59">
+            </div>
+            <div class="time-wrapper">
+                <label for="sec">SEC</label>
+                <input id="sec" type="text" value="00" min="0" max="59">
+            </div>
         </section>
-        <button class="start-btn" type="button">START</button>
-        <button class="reset-btn" type="button">RESET</button>
+        <button class="start-btn" type="button">START</button><button class="reset-btn" type="button">RESET</button>
     </article>
     <footer>
         <p>ⓒ WENIV Corp.</p>
