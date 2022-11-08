@@ -18,11 +18,11 @@
         <section>
             <h3 class="ir">Timer Settings</h3>
             <label for="hrs">HRS</label>
-            <input id="hrs" type="number" value="00">
+            <input id="hrs" type="number" value="00" min="0" max="24">
             <label for="min">MIN</label>
-            <input id="min" type="number" value="00">
+            <input id="min" type="number" value="00" min="0" max="59">
             <label for="sec">SEC</label>
-            <input id="sec" type="number" value="00">
+            <input id="sec" type="number" value="00" min="0" max="59">
         </section>
         <button class="start-btn" type="button">START</button>
         <button class="reset-btn" type="button">RESET</button>
